@@ -1,0 +1,9 @@
+<div class="sidenav">
+    <ul>
+        <li *ngFor="let game of getOrdinaryHistoryGames()">
+            <span class="label">name:</span> {{ game.playerName}}<br>
+            <span class="label">date:</span> {{game.date.toDateString()}}
+            <span class="label">score:</span> {{game.score}}<br><br>
+        </li>
+    </ul>
+</div>

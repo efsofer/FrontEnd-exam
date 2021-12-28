@@ -1,0 +1,7 @@
+<div class="game">
+    <form #f="ngForm" (ngSubmit) = (onSubmit(f))> 
+        <label >Name:</label><br><br>
+        <input [(ngModel)]="name" name="name"><br><br>
+        <button type="submit">Login</button>
+    </form>
+</div>
